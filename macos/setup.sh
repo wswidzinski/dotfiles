@@ -14,3 +14,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # install RVM
 ./rvm.sh
+
+# install fish
+./fish.sh
