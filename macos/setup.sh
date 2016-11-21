@@ -17,3 +17,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # install fish
 ./fish.sh
+
+# install plugins via fisherman
+./fisher.fish
