@@ -10,3 +10,4 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # install applications
 ./brew.sh
+./brew-cask.sh
