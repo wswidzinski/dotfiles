@@ -18,10 +18,13 @@ install_brew_apps() {
     brew_install 'wget' 'wget --with-iri'
 
     # Install more recent versions of some OS X tools
-    brew_install 'vim' 'vim --with-override-system-vi'
     brew_install 'grep' 'homebrew/dupes/grep'
     brew_install 'openssh' 'homebrew/dupes/openssh'
     brew_install 'screen' 'homebrew/dupes/screen'
+
+    # vim / nvim
+    brew_install 'vim' 'vim --with-override-system-vi'
+    brew_install 'neovim' 'neovim/neovim/neovim'
 
     # github utilities
     brew_install 'hub' 'hub'
