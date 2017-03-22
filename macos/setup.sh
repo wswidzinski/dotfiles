@@ -20,3 +20,6 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 
 # install plugins via fisherman
 ./fisher.fish
+
+# copy iterm preferences
+cp ./iterm2_profile/com.googlecode.iterm2.plist ~/Library/Preferences
