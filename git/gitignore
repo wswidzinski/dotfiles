@@ -1,0 +1,21 @@
+# macos
+._*
+*~
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon
+
+# node
+node_modules
+npm-debug.log
+
+# vim
+%*
+*.sw[a-z]
+*.un~
+.netrwhist
+Session.vim
